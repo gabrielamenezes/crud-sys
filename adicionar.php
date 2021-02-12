@@ -6,18 +6,16 @@
     </label><br><br>
 
     <label for="">
-        Nascimento:<br>
-        <input type="date" name="birth">
-    </label><br><br>
-
-    <label for="">
         Sexo:<br>
-        <input type="text" name="sex">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">M</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">F</label><br>
     </label><br><br>
 
     <label for="">
-        UF:<br>
-        <input type="text" name="estado">
+        Email:<br>
+        <input type="email" name="email">
     </label><br><br>
 
     <input type="submit" value="Adicionar">

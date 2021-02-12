@@ -8,9 +8,8 @@
     <tr>
         <th>ID</th>
         <th>NOME</th>
-        <th>NASCIMENTO</th>
         <th>SEXO</th>
-        <th>UF</th>
+        <th>EMAIL</th>
         <th>AÇÕES</th>
     </tr>
 </table>

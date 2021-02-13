@@ -27,7 +27,8 @@
             <td><?=$tupla['nome'];?></td>
             <td><?=$tupla['email'];?></td>
             <td>
-                
+                <a href="editar.php?id=<?=$tupla['id'];?>">[ Editar ]</a>
+                <a href="excluir.php?id=<?=$tupla['id'];?>">[ Excluir ]</a>
             </td>
 
         </tr>
